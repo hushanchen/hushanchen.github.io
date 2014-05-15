@@ -4,10 +4,16 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Hexo</title>
+    <title>my new post | Hexo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="John Doe">
+    
+    <meta name="description" content="����һ��Hexo ���������ġ�����MarkDownд��
+MarkDown  Jianshu.io
+Hexo
+�ð�����
+Ruby &amp;amp;&amp;amp; Node.js@hucker">
     
     
     
@@ -61,24 +67,92 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2014/05/15/my-new-post/" title="my new post" itemprop="url">my new post</a>
+  </h1>
+  <p class="article-author">By
+      <a href="http://yoursite.com/about" title="John Doe" target="_blank">John Doe</a>
+  <p class="article-time">
+    <time datetime="2014-05-15T08:44:58.000Z" itemprop="datePublished">发表于May 15 2014</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#MarkDown_Jianshu-io"><span class="toc-number">1.</span> <span class="toc-text">MarkDown  Jianshu.io</span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo"><span class="toc-number">1.1.</span> <span class="toc-text">Hexo</span></a></li></ol>
+		
+		</div>
+		
+		<p>����һ��Hexo ���������ġ�����MarkDownд��</p>
+<h1 id="MarkDown_Jianshu-io">MarkDown  Jianshu.io</h1>
+<h2 id="Hexo">Hexo</h2>
+<p>�ð�<br>����</p>
+<p>Ruby &amp;&amp; Node.js<br>@hucker</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
 
-  <section class="post" itemscope itemprop="blogPost">
+
+
+
+
+<div class="article-share" id="share">
+
   
-    <a href="/2014/05/13/hello-world/" title="Hello World" itemprop="url">
-  
-    <h1 itemprop="name">Hello World</h1>
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_googleplus"></a>
+	<a class="jiathis_button_douban"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+    var jiathis_config={
+    data_track_clickback:true,
+    sm:"copy,renren,cqq",
+    pic:"",
+    summary:"",
+     ralateuid:{"tsina":"2176287895"},hideMore:false}
     
-     
-           <p itemprop="description" >Welcome to Hexo! This is your very first post. Check documentation to learn how to use.</p>
-        
-    
-    <time datetime="2014-05-13T02:36:07.000Z" itemprop="datePublished">May 13 2014</time>
-  </a>
-</section>
+  </script> 
+<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=
+1889330" charset="utf-8"></script>      
 
 
 </div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2014/05/13/hello-world/"  title="Hello World">
+ <strong>下一篇：</strong><br/> 
+ <span>Hello World
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section class="comment">
+	<div class="ds-thread"></div>
+</section>
+
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
 
 <div id="asidepart">
@@ -192,9 +266,74 @@ $(document).ready(function(){
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
 
 
 
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"wuchong"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
 
 
 <script type="text/javascript">
@@ -207,6 +346,12 @@ ga('send', 'pageview');
 </script>
 
 
+<div id="totop">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
 <script type="text/x-mathjax-config"> 
 MathJax.Hub.Config({ 
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} 
@@ -216,4 +361,4 @@ MathJax.Hub.Config({
    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
   </body>
- </html>
+</html>
