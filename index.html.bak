@@ -1,11 +1,20 @@
+
  <!DOCTYPE HTML>
 <html >
 <head>
   <meta charset="UTF-8">
+  
     <title>Hexo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
     <meta name="author" content="John Doe">
+    
+    
+    
+    
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    
+    
     <link rel="icon" href="/img/favicon.ico">
     
     
