@@ -1,4 +1,4 @@
-# hushanchen.github.io
+# Hello!
 Hello Shanchen!
 I want to make my blog here
 Write some topic about technical journal
