@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "learning"
+date:   2020-01-06 22:22:22 +0800
+categories: jekyll update
+---
+Hello,  
+First we learning write Markdown.  
+###### This is Head.(level 6)
+### This is Head too.(level 3)
+
+Paragraph use blank line.  
+
+Line Break use trailing whitespace.  
+
+**Bold**  *Italic*
+
+> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**.
+
+List Below: 
+1. Money
+2. Health
+3. Work  
+
+`System.out.println("Hello World!")` 
+
+Link [About me](https://about.met/hucker)
+
+
+

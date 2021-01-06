@@ -21,7 +21,7 @@
 title: Hello Shanchen!
 email: hushanchen@163.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello Shanchen! this is my blog, I want to share something here, hope can help you.
+  This is my blog, I want to share something here, hope can help you, enjoy!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hucker
