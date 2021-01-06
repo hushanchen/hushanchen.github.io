@@ -7,7 +7,7 @@ categories: jekyll update
 Hello,  
 First we learning write Markdown.  
 ###### This is Head.(level 6)
-### This is Head too.(level 3)
+#### This is Head too.(level 4)
 
 Paragraph use blank line.  
 
@@ -29,7 +29,7 @@ List Below:
 
 `System.out.println("Hello World!")` 
 
-Link [About me](https://about.met/hucker)
+Link [About me](https://about.me/hucker)
 
 
 
