@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 Hello,  
 First we learning write Markdown.  
-###### This is Head.(level 6)
+##### This is Head.(level 5)
 #### This is Head too.(level 4)
 
 Paragraph use blank line.  
@@ -22,12 +22,25 @@ Line Break use trailing whitespace.
 >
 >  *Everything* is going according to **plan**.
 
+Examples:
+It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com) 
+Task Lists:
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+Tables:
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 List Below: 
 1. Money
 2. Health
 3. Work  
 
-`System.out.println("Hello World!")` 
+`System.out.println("Hello World!")`  :mask:
 
 Link [About me](https://about.me/hucker)
 
